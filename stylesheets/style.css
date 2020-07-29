@@ -73,6 +73,26 @@ body {
   .header-buttons .button-secondary {
     background: #444857; }
 
+.button-primary {
+  border: 0;
+  background: #47cf73;
+  color: black; }
+
+.highlight-orange {
+  color: #a88038; }
+
+.highlight-yellow {
+  color: #e1ca72; }
+
+.highlight-green {
+  color: #74b087; }
+
+.highlight-blue {
+  color: #7a99ad; }
+
+.cursor {
+  animation: blink 1s infinite; }
+
 .footer {
   justify-content: space-between;
   align-items: center;
