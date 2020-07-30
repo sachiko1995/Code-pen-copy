@@ -10,12 +10,59 @@
   color: #74b087;
 }
 
+.highlight-purple {
+  color: #9f8198;
+}
+
 .highlight-blue {
   color: #7a99ad;
 }
 
-.cursor {
-  -webkit-animation: blink 1s infinite;
-          animation: blink 1s infinite;
+.code-card {
+  margin-bottom: 8px;
+  background: #1d1e22;
+  border-radius: 6px;
+  width: 300px;
+  height: 140px;
+  font-size: 13px;
+}
+
+.code-card .code-card-title-text {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.code-card-html {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+}
+
+.code-card-header {
+  padding: 4px 8px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.code-card-body {
+  padding: 8px;
+  padding-top: 0;
+}
+
+.code-card-body p {
+  margin: 0;
+}
+
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px;
+}
+
+.code-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
 }
 /*# sourceMappingURL=code-card.css.map */

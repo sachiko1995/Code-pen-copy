@@ -19,4 +19,9 @@
   font-size: .8rem;
   text-align: center;
 }
+
+.blinking {
+  -webkit-animation: blinkingText 1.2s infinite;
+          animation: blinkingText 1.2s infinite;
+}
 /*# sourceMappingURL=text.css.map */

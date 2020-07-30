@@ -27,4 +27,16 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.l-section {
+  margin: 32px 0;
+}
+
+.l-margin-left-2rem {
+  margin-left: 2rem !important;
+}
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important;
+}
 /*# sourceMappingURL=layout.css.map */
