@@ -14,7 +14,9 @@ body {
   color: #FFF; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  width: 100%;
+  display: block; }
 
 .l-flex {
   display: flex; }
@@ -53,19 +55,22 @@ a {
 .codepen-logo {
   text-align: center; }
 
-.button-logo {
-  margin: 0 16px;
-  border: 3px solid transparent;
-  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
-  width: 154px;
-  padding: 0; }
-
 .button {
   display: inline-block;
   border-radius: 4px;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none; }
+  .button:hover {
+    opacity: .4;
+    cursor: pointer; }
+
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  width: 154px;
+  padding: 0; }
 
 .button-logo-text {
   display: block;
@@ -149,7 +154,8 @@ a {
 
 .footer-links h4 {
   margin: 2px;
-  margin-right: 1rem; }
+  margin-right: 1rem;
+  color: white; }
 
 .footer-links li {
   margin: 1rem; }
@@ -189,6 +195,9 @@ a {
 .hero-logo {
   font-size: 36px; }
 
+.footer-logo {
+  font-size: 2rem; }
+
 .serch-form {
   padding: 8px;
   margin: 8px;
@@ -213,16 +222,20 @@ a {
 .get-start {
   text-align: center; }
 
-.sidebar-menu {
+.sidebar-menu a {
   display: block;
   padding-left: 16px; }
+  .sidebar-menu a:hover {
+    background-color: black;
+    cursor: pointer; }
 
 .sidebar-menu-sub-list {
   margin-bottom: 16px; }
 
 .sidebar-menu-title {
   font-size: .8rem;
-  margin-bottom: .2rem; }
+  margin-bottom: .2rem;
+  padding-left: 16px; }
 
 ul {
   padding-left: 0;
@@ -247,4 +260,4 @@ ul {
   text-align: center; }
 
 .blinking {
-  animation: blinkingText 1.2s infinite; }
+  animation: blink 1s ease-in-out infinite alternate; }

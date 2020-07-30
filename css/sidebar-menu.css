@@ -9,9 +9,14 @@
   text-align: center;
 }
 
-.sidebar-menu {
+.sidebar-menu a {
   display: block;
   padding-left: 16px;
+}
+
+.sidebar-menu a:hover {
+  background-color: black;
+  cursor: pointer;
 }
 
 .sidebar-menu-sub-list {
@@ -21,6 +26,7 @@
 .sidebar-menu-title {
   font-size: .8rem;
   margin-bottom: .2rem;
+  padding-left: 16px;
 }
 
 ul {

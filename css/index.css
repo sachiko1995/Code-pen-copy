@@ -19,6 +19,8 @@ body {
 
 a {
   text-decoration: none;
+  width: 100%;
+  display: block;
 }
 
 .l-flex {
@@ -91,6 +93,11 @@ a {
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
+}
+
+.button:hover {
+  opacity: .4;
+  cursor: pointer;
 }
 
 .button-logo-text {
@@ -295,9 +302,14 @@ a {
   text-align: center;
 }
 
-.sidebar-menu {
+.sidebar-menu a {
   display: block;
   padding-left: 16px;
+}
+
+.sidebar-menu a:hover {
+  background-color: black;
+  cursor: pointer;
 }
 
 .sidebar-menu-sub-list {
@@ -307,6 +319,7 @@ a {
 .sidebar-menu-title {
   font-size: .8rem;
   margin-bottom: .2rem;
+  padding-left: 16px;
 }
 
 ul {
