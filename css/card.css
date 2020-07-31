@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=card.css.map */
+.features {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features .card {
+  height: 340px;
+}
+
+.features-card {
+  margin: 2rem 1rem;
+}
+
+.features-card .card-icon {
+  background: black;
+  position: relative;
+  left: 16px;
+  top: 32px;
+  height: 64px;
+  width: 64px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.features-card .card-icon .fa {
+  font-size: 48px;
+  position: relative;
+  top: 8px;
+}
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px;
+  background: #2c303a;
+}
+
+.card-footer {
+  margin: 16px 0;
+}
+/*# sourceMappingURL=card.css.map */

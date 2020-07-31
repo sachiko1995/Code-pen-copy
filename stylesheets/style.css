@@ -18,6 +18,30 @@ a {
   width: 100%;
   display: block; }
 
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold; }
+
+section {
+  display: block; }
+
+div {
+  display: block; }
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold; }
+
 .l-flex {
   display: flex; }
 
@@ -94,6 +118,49 @@ a {
   border: 0;
   background: #47cf73;
   color: black; }
+
+.button-secondary {
+  background: #444857;
+  border: 0; }
+
+.features {
+  justify-content: center; }
+  .features .card {
+    height: 340px; }
+
+.features-card {
+  margin: 2rem 1rem; }
+  .features-card .card-icon {
+    background: black;
+    position: relative;
+    left: 16px;
+    top: 32px;
+    height: 64px;
+    width: 64px;
+    border-radius: 6px;
+    text-align: center; }
+    .features-card .card-icon .fa {
+      font-size: 48px;
+      position: relative;
+      top: 8px; }
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px;
+  background: #2c303a; }
+
+.card-footer {
+  margin: 16px 0; }
+
+.product-item-row {
+  justify-content: center; }
+  .product-item-row .product-item {
+    margin: 2rem 1rem;
+    width: 360px; }
+    .product-item-row .product-item .product-message .product-message-body {
+      color: #b7bbc8;
+      margin-bottom: 16px; }
 
 .highlight-orange {
   color: #a88038; }
@@ -258,6 +325,9 @@ ul {
   margin: .2rem;
   font-size: .8rem;
   text-align: center; }
+
+.text-bold {
+  font-weight: bold; }
 
 .blinking {
   animation: blink 1s ease-in-out infinite alternate; }

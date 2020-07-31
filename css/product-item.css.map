@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,eAAe,EAAE,MAAM;CAOiB;;AAR5C,AAEI,iBAFa,CAEb,aAAa,CAAC;EACV,MAAM,EAAE,SAAS;EACjB,KAAK,EAAE,KAAK;CAIsB;;AAR1C,AAMY,iBANK,CAEb,aAAa,CAGT,gBAAgB,CACZ,qBAAqB,CAAC;EAClB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CAAG",
     "sources": [
         "../stylesheets/sass/modules/product-item.sass"
     ],

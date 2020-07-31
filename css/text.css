@@ -20,6 +20,10 @@
   text-align: center;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .blinking {
   -webkit-animation: blink 1s ease-in-out infinite alternate;
           animation: blink 1s ease-in-out infinite alternate;

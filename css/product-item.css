@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=product-item.css.map */
+.product-item-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-item-row .product-item {
+  margin: 2rem 1rem;
+  width: 360px;
+}
+
+.product-item-row .product-item .product-message .product-message-body {
+  color: #b7bbc8;
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=product-item.css.map */
