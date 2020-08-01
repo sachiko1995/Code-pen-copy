@@ -25,6 +25,7 @@
 
 .product-item-card:hover {
   cursor: pointer;
+  opacity: .4;
 }
 
 .product-item-card-image {
