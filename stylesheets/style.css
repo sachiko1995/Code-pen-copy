@@ -7,7 +7,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background: #131417; }
+  background-color: #131417; }
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -216,8 +216,14 @@ h3 {
     padding: 2px 4px; }
 
 .product-item-list-footer {
-  display: flex;
+  width: 100%;
   justify-content: center; }
+  .product-item-list-footer .flex {
+    display: flex;
+    justify-content: center; }
+    .product-item-list-footer .flex .button {
+      width: 70px;
+      margin: 0 .1rem; }
 
 .highlight-orange {
   color: #a88038; }
@@ -253,6 +259,8 @@ h3 {
 .code-card-header {
   padding: 4px 8px;
   justify-content: space-between; }
+  .code-card-header .fa:before {
+    color: #b7bbc8; }
 
 .code-card-body {
   padding: 8px;

@@ -86,11 +86,23 @@
 }
 
 .product-item-list-footer {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-item-list-footer .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.product-item-list-footer .flex .button {
+  width: 70px;
+  margin: 0 .1rem;
 }
 /*# sourceMappingURL=product-item.css.map */
