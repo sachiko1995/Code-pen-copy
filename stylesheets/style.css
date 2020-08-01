@@ -15,7 +15,6 @@ body {
 
 a {
   text-decoration: none;
-  width: 100%;
   display: block; }
 
 h2 {
@@ -107,12 +106,6 @@ h3 {
   .header-buttons .button {
     margin-right: 8px;
     min-width: 100px; }
-  .header-buttons .button-primary {
-    border: 0;
-    background: #47cf73;
-    color: black; }
-  .header-buttons .button-secondary {
-    background: #444857; }
 
 .button-primary {
   border: 0;
@@ -175,7 +168,8 @@ h3 {
   transition: .2s;
   transition: scale(1.2); }
   .product-item-card:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    opacity: .4; }
 
 .product-item-card-image {
   width: 350px;
@@ -346,7 +340,7 @@ h3 {
     border: 0; }
 
 .sidebar {
-  background-color: #1F1F26;
+  background: #1F1F26;
   padding-left: 0;
   margin-left: 0;
   list-style-type: none; }
