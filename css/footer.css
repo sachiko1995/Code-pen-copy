@@ -9,13 +9,19 @@
   background: black;
 }
 
-.footer-links h4 {
+.footer-links ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.footer-links ul h4 {
   margin: 2px;
   margin-right: 1rem;
   color: white;
 }
 
 .footer-links li {
-  margin: 1rem;
+  margin: 0;
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=footer.css.map */
